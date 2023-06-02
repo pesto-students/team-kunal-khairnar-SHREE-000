@@ -5,3 +5,31 @@
 }
    
 /* Your solution goes here */
+#game-table {
+   width: 450px;
+   border: 2px solid var(--table-color);
+   display: flex;
+   flex-direction: column;
+}
+
+#game-table caption {
+   height: 50px;
+   background-color: var(--table-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-transform:capitalize;
+}
+
+#game-table tr th,
+#game-table tr td {
+   width: 150px;
+   text-align: center;
+   height: 25px;
+}
+
+#game-table tr:nth-child(2),
+#game-table tr:nth-child(4) {
+   background-color: var(--row-bg-color);
+}
