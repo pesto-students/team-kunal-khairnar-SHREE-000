@@ -1,0 +1,54 @@
+/* Your code goes here */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, Helvetica, and sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    /* width: 80vw; */
+    width: 800px;
+    height: 60vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container .offerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43 179 178);
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    width: 350px;
+}
+
+.container .offer {
+    height: 100%;
+}
+
+.container .offer .offerContents {
+    height: inherit;
+}
+
+.container .offer .offerContents table {
+    background-color: rgb(230 230 230);
+    height: 100%;
+    padding: 5px;
+    width: 100%;
+}
+
+.container .offer .offerContents table tr {
+    background-color: rgb(255, 255, 255);
+}
+
+.container .offer .offerContents table tr .finalValue{
+    color: rgb(94 13 254);
+}

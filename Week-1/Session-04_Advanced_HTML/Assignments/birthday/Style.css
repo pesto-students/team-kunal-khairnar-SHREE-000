@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+form div label {
+    width: 40%;
+}
