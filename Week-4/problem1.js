@@ -120,5 +120,5 @@ myPromise.then(result => {
     console.log(result);
 }, error => {
     console.log(error);
-})
+});
 
