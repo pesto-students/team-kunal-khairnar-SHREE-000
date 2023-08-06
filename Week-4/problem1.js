@@ -56,7 +56,7 @@ const name = {
 
 let printName = function (place, place1) {
     console.log(`first name - ${this.firstName} second name 
-    - ${this.lastName} live in ${place} - ${place1}`);
+    - ${this.lastName} live in ${place} - ${place1}`)
 }
 
 // printName = printName.bind(name);
