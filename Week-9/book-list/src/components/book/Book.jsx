@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 const Book = ({ book }) => {
     const {
@@ -15,4 +15,4 @@ const Book = ({ book }) => {
   )
 }
 
-export default Book;
+export default memo(Book);

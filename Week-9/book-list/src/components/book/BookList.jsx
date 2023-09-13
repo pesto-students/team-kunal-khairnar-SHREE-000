@@ -1,5 +1,6 @@
 import React from 'react'
 import Book from './Book';
+import withLogger from '../HOC/withLogger';
 
 const BookList = () => {
   const books = [
@@ -21,4 +22,4 @@ const BookList = () => {
   )
 }
 
-export default BookList;
+export default withLogger(BookList);
